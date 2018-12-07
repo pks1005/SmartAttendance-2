@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="anative.apps.piyush.smartattendence.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtContent"
+        android:textSize="25dp"
+        android:textColor="#2257dd"/>
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:id="@+id/gr_text_edit"
+        android:maxLength="6" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scan ID card"
+        android:id="@+id/button"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:onClick="readCode"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgview"/>
+</LinearLayout>
